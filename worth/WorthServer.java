@@ -53,6 +53,7 @@ public class WorthServer extends RemoteServer implements RMIServicesINT {
         users.add(user);
         user.setStatus("offline");
         callbacks.put(username, "offline");
+        updateUsersStuatus(username);
         try {
             wr = new FileWriter(usersFile);
             gson.toJson(users, wr);
