@@ -2,13 +2,16 @@
 Progetto Laboratorio Reti 2020/21
 
 - to compile all files and run server:
-'''bash
+```bash
 ./serverexe.sh
+```
 - for every client session:
-'''bash
+```bash
 ./client.sh 
+```
 - to clean directory from .class files:
-'''bash
+```bash
 ./clean.sh 
+```
 
 Delete worth/Data directory and clean lastip.txt file to delete all program data.
