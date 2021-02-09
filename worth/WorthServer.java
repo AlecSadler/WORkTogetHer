@@ -43,7 +43,7 @@ public class WorthServer extends RemoteServer implements RMIServicesINT {
     }
 
     @Override
-    public boolean register(String username, String password) throws RemoteException {
+    public synchronized boolean register(String username, String password) throws RemoteException {
         for (User user : users) {
             if (user.getNickname().equals(username)) return false;
         }
