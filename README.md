@@ -1,15 +1,15 @@
 # Worth
 Progetto Laboratorio Reti 2020/21
 
-- to compile all files and run server:
+Compile all files and run server:
 ```bash
 ./serverexe.sh
 ```
-- for every client session:
+Run a new client session:
 ```bash
 ./client.sh 
 ```
-- to clean directory from .class files:
+Clean directory from .class files:
 ```bash
 ./clean.sh 
 ```
